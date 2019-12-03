@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WeatherBees: Error 404</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #main {
+        width: calc(100% - 8px);
+        height: calc(100% - 8px);
+        margin: 4px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 2px grey;
+        background-color: #f7cac9;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+      }
+      input {
+        width: 100px;
+        height: 50px;
+        font-weight: bold;
+        border: 2px solid black;
+        background-color: transparent;
+        color: black;
+        font-size: 25px;
+        transition-duration: 0.4s;
+      }
+      input:hover {
+        color: white;
+        background-color: black;
+      }
+    </style>
+    <script>
+      function Back() {
+        history.go(-1);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <br>
+      <h1>That's an error 404.</h1>
+      This means that there's nothing here - if you expected to find something,
+      the site might be in maintainence or the hosting server may be temporarily
+      down. The site should be back up soon!<br></br>
+      <input type="button" value="Back" onclick="Back();"></input><br></br>
+    </div>
+  </body>
+</html>
