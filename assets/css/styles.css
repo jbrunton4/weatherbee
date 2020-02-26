@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #f8d200;
+  background-color: #fee79b;
   animation: defaultEntry 2.4s;
 }
 
@@ -116,7 +116,7 @@ input:hover {
   width: calc(30% - 8px);
   margin-left: 4px;
   margin-top: 4px;
-  background-color: #f8d200;
+  background-color: #fee79b;
   border: 1px solid black;
   transition-duration: 0.5s;
   animation: defaultEntry 2.4s;
@@ -141,7 +141,7 @@ input:hover {
 
 #main {
   float: right;
-  background-color: #f8d200;
+  background-color: #fee79b;
   border: 1px solid black;
   width: calc(70% - 8px);
   margin-left: 4px;
